@@ -36,3 +36,12 @@ function isEven (x) {
     return isEven(x-2);
   }
 }
+
+function countBs (str){
+  for (var i = 0; i < str.length; i++){
+    if (str.charAt(i) === "B"){
+      return true;
+    }
+  }
+  return false;
+}
